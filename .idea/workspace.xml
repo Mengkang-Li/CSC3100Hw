@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="300c2195-ec17-494c-9f0e-ec2e6e3cbe99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw1/CellularAutomaton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw1/CellularAutomaton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw2/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/PolyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/StackBuild.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RPnB8Ka1ffGyL3KxMxrN3PeMqR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mengkang Li/Desktop/CODE/CSC3100Hw/src/main/java/Hw3/sort.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Mengkang Li/Desktop/CODE/CSC3100Hw/src/main/java/Hw3/sort.java&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Question2">
+    <configuration name="Battle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw2.Battle" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw3.Question" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw3.Question1" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw3.Question2" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw3.sort" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Question2" />
+        <item itemvalue="Application.sort" />
+        <item itemvalue="Application.Question" />
+        <item itemvalue="Application.Question1" />
+        <item itemvalue="Application.Battle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="300c2195-ec17-494c-9f0e-ec2e6e3cbe99" name="Changes" comment="" />
+      <created>1687160445649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687160445649</updated>
+      <workItem from="1687160447128" duration="8598000" />
+      <workItem from="1687180867286" duration="6000" />
+      <workItem from="1687259675105" duration="1456000" />
+      <workItem from="1687330113035" duration="110000" />
+      <workItem from="1687330234684" duration="10000" />
+      <workItem from="1687662733322" duration="2993000" />
+      <workItem from="1687763225879" duration="1288000" />
+      <workItem from="1687833388066" duration="1611000" />
+      <workItem from="1687864618099" duration="533000" />
+      <workItem from="1687880425311" duration="1699000" />
+      <workItem from="1687883391434" duration="148000" />
+      <workItem from="1688194019460" duration="19000" />
+      <workItem from="1688452087215" duration="4000" />
+      <workItem from="1688959195100" duration="2069000" />
+      <workItem from="1688970048670" duration="1949000" />
+      <workItem from="1688972037676" duration="7178000" />
+      <workItem from="1688991855403" duration="24000" />
+      <workItem from="1688992035643" duration="4332000" />
+      <workItem from="1689055510849" duration="11976000" />
+      <workItem from="1689073023624" duration="1627000" />
+      <workItem from="1689076912418" duration="1498000" />
+      <workItem from="1689128783560" duration="7710000" />
+      <workItem from="1689139096609" duration="3575000" />
+      <workItem from="1689142790871" duration="5584000" />
+      <workItem from="1689149002935" duration="431000" />
+      <workItem from="1689150722101" duration="7000" />
+      <workItem from="1689150782636" duration="687000" />
+      <workItem from="1689224545328" duration="5639000" />
+      <workItem from="1689230532999" duration="568000" />
+      <workItem from="1689232170876" duration="230000" />
+      <workItem from="1689238881083" duration="334000" />
+      <workItem from="1689239281071" duration="63000" />
+      <workItem from="1689239715013" duration="707000" />
+      <workItem from="1689240650424" duration="67000" />
+      <workItem from="1689245966681" duration="3312000" />
+      <workItem from="1689252665946" duration="968000" />
+      <workItem from="1689253643605" duration="59000" />
+      <workItem from="1689262012765" duration="4632000" />
+      <workItem from="1689299031037" duration="989000" />
+      <workItem from="1689300804430" duration="9413000" />
+      <workItem from="1689313172064" duration="3361000" />
+      <workItem from="1689316698666" duration="7613000" />
+      <workItem from="1689325609279" duration="2626000" />
+      <workItem from="1689331913740" duration="6134000" />
+      <workItem from="1689339351204" duration="2134000" />
+      <workItem from="1689350907116" duration="3304000" />
+      <workItem from="1689393023141" duration="1836000" />
+      <workItem from="1689397689936" duration="8241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/ListNode.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Hw3/Question1.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Hw3/Question.java</url>
+          <line>223</line>
+          <properties class="Hw3.Question" method="dfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="to[cnt]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CSC3100Hw$Question2.ic" NAME="Question2 Coverage Results" MODIFIED="1689351867223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Hw3.*</FILTER>
+    </SUITE>
+  </component>
+</project>
