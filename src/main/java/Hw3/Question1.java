@@ -1,10 +1,10 @@
 
 package Hw3;
 
-        import java.util.Arrays;
-        import java.util.Comparator;
-        import java.util.Scanner;
-        import java.util.Stack;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class Question1 {
     static Stack<Integer> stack = new Stack<>();
@@ -12,6 +12,7 @@ public class Question1 {
     static int vertices;
     static int edge;
     static UnionSet u;
+
     static class Edge {
         int front;
         int latter;
@@ -23,6 +24,7 @@ public class Question1 {
             val = z;
         }
     }
+
     static int[] from;
     static int[] to;
     static int[] sum;
@@ -102,38 +104,39 @@ public class Question1 {
         Kruskal();
 
         int sumT = 0;
-        for(int i = 0; i < sum.length; i++){
+        for (int i = 0; i < sum.length; i++) {
             sumT += sum[i];
         }
-        if(sumT != vertices - 1){
+        if (sumT != vertices - 1) {
             System.out.println(0);
             return;
         }
         long re = 1;
         u = new UnionSet(vertices);
-        for(int i = 0; i <= cnt; i++){
+        for (int i = 0; i <= cnt; i++) {
             mid = 0;
             Count(from[i], i, 0);
             re = re * mid % 1000000007;
-            for(int j = from[i]; j <= to[i]; j++){
-                if(!u.compare(edges[j].front, edges[j].latter)){
+            for (int j = from[i]; j <= to[i]; j++) {
+                if (!u.compare(edges[j].front, edges[j].latter)) {
                     u.merge(edges[j].front, edges[j].latter);
                 }
             }
         }
         System.out.println(re);
     }
-    static void Kruskal(){
-        if(!u.compare(edges[0].front, edges[0].latter)){
+
+    static void Kruskal() {
+        if (!u.compare(edges[0].front, edges[0].latter)) {
             u.merge(edges[0].front, edges[0].latter);
             sum[cnt]++;
         }
-        for(int i = 1; i < edges.length; i++){
-            if(edges[i - 1].val != edges[i].val){
+        for (int i = 1; i < edges.length; i++) {
+            if (edges[i - 1].val != edges[i].val) {
                 to[cnt] = i - 1;
                 from[++cnt] = i;
             }
-            if(!u.compare(edges[i].front, edges[i].latter)){
+            if (!u.compare(edges[i].front, edges[i].latter)) {
                 u.merge(edges[i].front, edges[i].latter);
                 sum[cnt]++;
             }
@@ -144,14 +147,15 @@ public class Question1 {
         System.out.println(Arrays.toString(sum));
         System.out.println(cnt);*/
     }
-    static void Count(int f, int t, int all){
-        if(f == to[t] + 1){
-            if(all == sum[t]){
+
+    static void Count(int f, int t, int all) {
+        if (f == to[t] + 1) {
+            if (all == sum[t]) {
                 mid++;
             }
             return;
         }
-        if(!u.compare(edges[f].front, edges[f].latter)){
+        if (!u.compare(edges[f].front, edges[f].latter)) {
             u.merge(edges[f].front, edges[f].latter);
             Count(f + 1, t, all + 1);
             u.split();

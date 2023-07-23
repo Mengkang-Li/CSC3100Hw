@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300c2195-ec17-494c-9f0e-ec2e6e3cbe99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw1/CellularAutomaton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw1/CellularAutomaton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw2/Battle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw2/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw3/sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/MergeTwoSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/PolyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/StackBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hw4/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +47,26 @@
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Mengkang Li/Desktop/CODE/CSC3100Hw/src/main/java/Hw3/sort.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question2">
-    <configuration name="Battle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw2.Battle" />
+  <component name="RunManager" selected="Application.Hash">
+    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hw4.Hash" />
       <module name="CSC3100Hw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hw2.*" />
+          <option name="PATTERN" value="Hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tut.Numbers" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,19 +76,6 @@
     </configuration>
     <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hw3.Question" />
-      <module name="CSC3100Hw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hw3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw3.Question1" />
       <module name="CSC3100Hw" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hash" />
+        <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.sort" />
         <item itemvalue="Application.Question" />
-        <item itemvalue="Application.Question1" />
-        <item itemvalue="Application.Battle" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +179,15 @@
       <workItem from="1689350907116" duration="3304000" />
       <workItem from="1689393023141" duration="1836000" />
       <workItem from="1689397689936" duration="8241000" />
+      <workItem from="1689406618552" duration="896000" />
+      <workItem from="1689438293737" duration="45000" />
+      <workItem from="1689438660973" duration="172000" />
+      <workItem from="1689482737922" duration="2160000" />
+      <workItem from="1689524475651" duration="6000" />
+      <workItem from="1689771368709" duration="625000" />
+      <workItem from="1689772053200" duration="672000" />
+      <workItem from="1689930692268" duration="3471000" />
+      <workItem from="1690102067070" duration="1359000" />
     </task>
     <servers />
   </component>
@@ -217,11 +212,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Tut/ListNode.java</url>
           <line>56</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Hw3/Question1.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Hw3/Question.java</url>
