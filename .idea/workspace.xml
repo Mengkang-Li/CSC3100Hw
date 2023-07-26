@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="300c2195-ec17-494c-9f0e-ec2e6e3cbe99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hw4/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/Circular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/TreeLevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tut/kthMinTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hw3/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,39 @@
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Mengkang Li/Desktop/CODE/CSC3100Hw/src/main/java/Hw3/sort.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hash">
+  <component name="RunManager" selected="Application.kthMinTree">
+    <configuration name="Circular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tut.Circular" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hw4.Hash" />
       <module name="CSC3100Hw" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tut.MaxQueue" />
+      <module name="CSC3100Hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,38 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw3.Question" />
+    <configuration name="kthMinTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tut.kthMinTree" />
       <module name="CSC3100Hw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hw3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw3.Question2" />
-      <module name="CSC3100Hw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hw3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw3.sort" />
-      <module name="CSC3100Hw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hw3.*" />
+          <option name="PATTERN" value="Tut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kthMinTree" />
+        <item itemvalue="Application.Circular" />
+        <item itemvalue="Application.MaxQueue" />
         <item itemvalue="Application.Hash" />
         <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.Question2" />
-        <item itemvalue="Application.sort" />
-        <item itemvalue="Application.Question" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +189,11 @@
       <workItem from="1689772053200" duration="672000" />
       <workItem from="1689930692268" duration="3471000" />
       <workItem from="1690102067070" duration="1359000" />
+      <workItem from="1690115389709" duration="5117000" />
+      <workItem from="1690124145173" duration="1796000" />
+      <workItem from="1690125952967" duration="2203000" />
+      <workItem from="1690166386455" duration="3890000" />
+      <workItem from="1690364115459" duration="15000" />
     </task>
     <servers />
   </component>
@@ -212,6 +218,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/Tut/ListNode.java</url>
           <line>56</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tut/Circular.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Hw3/Question.java</url>
